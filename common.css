@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    background-image:  linear-gradient(to right, #353840, #3e414a, #24262c, #18191d, #090a0b);
+}
+
+h1 {
+    margin: 0px;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    color: #c0c0c0;
+}
+
+h2 {
+    font-family: "Roboto", serif;
+    color: #c0c0c0;
+    font-weight: normal;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    background-color: #4bce79;
+    color: #11122b;
+    padding: 0px 25px;
+    border: 1px solid #4bce79;
+    border-radius: 2px;
+    outline: none;
+    font-family: "Lato", sans-serif;
+    font-size: 1.5em;
+    font-weight: 460;
+    margin-right: 20px;
+}
+
+.blurb {
+    padding: 50px 30px;
+}
+
+.blurb span {
+    font-family: "Carlito", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(116, 116, 116);
+}
+
+a.footer-link {
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    color: lightgrey;
+    padding: 5px 10px ;
+}
+
+.nav-bar-wrapper {
+    display: flex;
+    background-color: black;
+}
+
+.nav-bar-wrapper > .nav-bar .links-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar-wrapper > .nav-bar > .logo > a > img {
+    height: 26px;
+    width: 138px;
+    padding: 10px;
+
+}
+
+.nav-bar-wrapper > .nav-bar {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+}
+
+.nav-link > a {
+    text-decoration: none;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 0px 5px;
+    margin: 0px;
+}
+
+
+.hero-section > .img-wrapper img {
+    width: 584.4px;
+    height: 100%;
+    margin: 30px 0px;
+}
+
+.buttons-wrapper {
+    padding-bottom: 20px;
+    margin: 50px 100px 0px 50px;
+}
+
+.footer {
+    display: flex;
+    background-color: #36383f;
+    margin-bottom: 50px;
+}
+
+.footer > .footer-link > h3 span {
+    font-family: "Nunito", sans-serif;
+    font-weight: 999;
+    color: whitesmoke;
+    letter-spacing: 0.5px;
+}
+
+.footer > .footer-link {
+    width: 100%;
+    height: 40px;
+}
